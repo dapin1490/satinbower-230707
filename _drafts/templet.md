@@ -13,7 +13,7 @@ render_with_liquid: false
 
 <!--
 <style> // _sass\addon\commons.scss에 지정된 스타일
-  h1, h2, h3, h4, h5 {
+  h2, h3, h4, h5, h6 {
     color: #669966;
   }
 
@@ -27,7 +27,7 @@ render_with_liquid: false
 
   code.language-plaintext.highlighter-rouge {
     color: #1aaac7;
-    font-family: 'Roboto Mono', 'Nanum Gothic Coding', 'Microsoft Yahei', monospace;
+    font-family: $font-family-codeblock;
   }
 </style>
 
