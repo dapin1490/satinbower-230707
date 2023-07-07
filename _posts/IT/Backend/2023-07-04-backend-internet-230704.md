@@ -7,7 +7,7 @@ tags: [지식, IT, Backend, internet, network]
 render_with_liquid: false
 ---
 
-## ToC
+## Table of Contents
 - [Intro](#intro)
 - [개요](#개요)
 - [네트워크와 인터넷](#네트워크와-인터넷)
