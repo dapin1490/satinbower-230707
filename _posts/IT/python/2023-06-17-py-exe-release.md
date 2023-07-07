@@ -11,7 +11,7 @@ render_with_liquid: false
   figure { text-align: center; }
 </style>
 
-## ToC
+## Table of Contents
 - [파이썬 GUI PyQt5](#파이썬-gui-pyqt5)
 - [exe 만들기 PyInstaller](#exe-만들기-pyinstaller)
 - [소멸자와 로그 남기기](#소멸자와-로그-남기기)
