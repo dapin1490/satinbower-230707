@@ -2,7 +2,7 @@
 title: "디자인패턴 기말고사 필기"
 author: dapin1490
 date: 2023-06-19 19:02:00 +09:00
-categories: [IT, IT]
+categories: [IT, note]
 tags: [지식, IT]
 render_with_liquid: false
 ---

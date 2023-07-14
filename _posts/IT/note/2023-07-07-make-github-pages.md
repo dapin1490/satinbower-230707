@@ -2,7 +2,7 @@
 title: "우분투에서 chirpy 테마 github pages 만들기"
 author: dapin1490
 date: 2023-07-07 15:41:00 +09:00
-categories: [IT, IT]
+categories: [IT, note]
 tags: [지식, IT]
 render_with_liquid: false
 ---

@@ -2,7 +2,7 @@
 title: "실감미디어콘텐츠 워크샵 후기"
 author: dapin1490
 date: 2023-03-01 20:12:00 +09:00
-categories: [IT, IT]
+categories: [IT, note]
 tags: [지식, IT, 워크샵, 실감미디어, 후기]
 render_with_liquid: false
 ---

@@ -2,7 +2,7 @@
 title: "elasticsearch 시작하기"
 author: dapin1490
 date: 2023-07-14 20:37:00 +09:00
-categories: [IT, IT]
+categories: [IT, note]
 tags: [지식, IT, elastic, elasticsearch, bigdata]
 render_with_liquid: false
 ---
