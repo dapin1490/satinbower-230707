@@ -11,7 +11,7 @@ render_with_liquid: false
 - [강의 정보](#강의-정보)
 - [intro](#intro)
 - [elasticsearch](#elasticsearch)
-- [다음 글 예고](#다음-글-예고)
+- [다음 글](#다음-글)
 
 ## 강의 정보
 * AWS x 경희대 캠퍼스타운 여름 AWS 특강
@@ -67,5 +67,5 @@ elasticsearch는 영문 대소문자 및 띄어쓰기와 무관한 검색, 형�
 
 클라우드로 쓰지 않고 데이터를 로컬에 저장하는 방식으로 사용한다면 저장 용량은 갖춰진 사양의 80%까지만 쓰는 것을 권장한다. 나머지는 백업과 복구를 위한 여분 용량으로 쓰인다. 또한 elsaticsearch는 자바로 구현되었고 32비트 기반이라 메모리는 아무리 커봐야 일정량 이상은 못쓴다고 한다. elasticsearch에게 주어진 자원은 항상 최대로 쓰이니 자원 사용률만 보고 부족하다고 판단해 사양을 높일 필요는 없다고도 했다.
 
-## 다음 글 예고
-다음 내용은 elastic cloud부터 회원 가입과 기초 사용법 등을 정리한다.
+## 다음 글
+* [elastic cloud 시작하기](https://dapin1490.github.io/satinbower/posts/elastic-cloud-starter/)
