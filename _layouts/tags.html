@@ -3,6 +3,7 @@ layout: page
 # All the Tags of posts.
 ---
 
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 <div id="tags" class="d-flex flex-wrap mx-xl-2">
   {% assign tags = '' | split: '' %}
   {% for t in site.tags %}

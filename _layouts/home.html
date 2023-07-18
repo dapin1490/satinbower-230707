@@ -3,6 +3,8 @@ layout: page
 refactor: true
 ---
 
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+
 {% include lang.html %}
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
