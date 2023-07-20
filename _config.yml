@@ -18,6 +18,10 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+plugins:
+  - jekyll-feed
+author: dapin1490
+
 title: 새틴바우어 # the main title
 
 tagline: dapin1490's hand-made study blog # it will display as the sub-title
