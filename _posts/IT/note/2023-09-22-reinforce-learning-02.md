@@ -31,10 +31,10 @@ render_with_liquid: false
 ## world와 에이전트
 에이전트와 월드는 서로가 서로에게 영향을 주며 닫힌 루프를 이룬다. 이를 식으로 나타내면 다음과 같다.
 
-p(S', r | s, a) = p<sub>r</sub>{S<sub>t</sub> = s', R<sub>t</sub> = r, S<sub>t-1</sub> = s, A<sub>t-1</sub> = a}
+p(S', r &#124; s, a) = p<sub>r</sub>{S<sub>t</sub> = s', R<sub>t</sub> = r, S<sub>t-1</sub> = s, A<sub>t-1</sub> = a}
 
 * `|`: conditional probability
-* p(A | B) = p(A ⋂ B) / p(B)
+* p(A &#124; B) = p(A ⋂ B) / p(B)
 * `≐`: definition
 * p: probability
 * S': next step
@@ -46,7 +46,7 @@ p(S', r | s, a) = p<sub>r</sub>{S<sub>t</sub> = s', R<sub>t</sub> = r, S<sub>t-1
 
 마르코프 가정은 과거의 모든 정보가 현재 상태에 다 녹아들어 있다는 가정을 한다.
 
-p(S<sub>t+1</sub> | S<sub>t</sub> a<sub>t</sub>) = p(S<sub>t+1</sub> | h<sub>t</sub> a<sub>t</sub>)
+p(S<sub>t+1</sub> &#124; S<sub>t</sub> a<sub>t</sub>) = p(S<sub>t+1</sub> &#124; h<sub>t</sub> a<sub>t</sub>)
 
 위 식에서 좌변을 보면 현재 상태인 S<sub>t</sub>와 에이전트가 월드에 하는 행동인 a<sub>t</sub>가 있으면 월드는 관측값 o<sub>t</sub>와 보상 r<sub>t</sub>를 준다. 보상과 관측값은 다음 상태를 결정하기 위한 확률을 의미하게 된다.
 
