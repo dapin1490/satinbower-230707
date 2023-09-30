@@ -58,9 +58,9 @@ transition table도 그릴 수 있다. *(시험볼 때 그릴 수 있어야 한�
 
 | `s` | `a` | `s'` | `p` | `r` |
 |:-:|:-:|:-:|:-:|:-:|
-| start | hit | finish | 1/3 | <code>4 |
-| start | hit | start | 2/3 | <code>4 |
-| start | stay | finish | 1 | <code>10 |
+| start | hit | finish | 1/3 | $4 |
+| start | hit | start | 2/3 | $4 |
+| start | stay | finish | 1 | $10 |
 
 * `s`: 지금 상태
 * `a`: 이제 할 행동
