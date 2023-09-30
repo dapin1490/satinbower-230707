@@ -26,7 +26,7 @@ policy(π): 상태에서 행동으로 매핑함.
 어떤 상태에서 어떤 행동을 했을 때, 그 행동이 항상 같은 가치를 가져오지 않는다. value function은 q<sub>π</sub>(s, a)로 쓴다.
 
 ## Returns (Utility)
-<img src="https://latex.codecogs.com/svg.image?\inline&space;\bg{white}&space;G_{t}" title=" G_{t}" />는 미래에 얻을 수 있는 이득의 총합이고, 내 행동에 대한 G<sub>t</sub>를 가치라고 한다. 여기서 "현재 얻는 이득"과 "미래에 얻을 이득"을 서로 다르게 반영하기 위해 discount factor(이하 d.f.)를 사용한다. d.f.가 1에 가까울 수록 미래를 중시하고 0에 가까울 수록 현재를 중시하며, 이 값은 사람이 정한다.
+G<sub>t</sub>는 미래에 얻을 수 있는 이득의 총합이고, 내 행동에 대한 G<sub>t</sub>를 가치라고 한다. 여기서 "현재 얻는 이득"과 "미래에 얻을 이득"을 서로 다르게 반영하기 위해 discount factor(이하 d.f.)를 사용한다. d.f.가 1에 가까울 수록 미래를 중시하고 0에 가까울 수록 현재를 중시하며, 이 값은 사람이 정한다.
 
 강의자료에서는 G<sub>t</sub>를 Return이라고 하며, utility라고 부르기도 한다.
 
