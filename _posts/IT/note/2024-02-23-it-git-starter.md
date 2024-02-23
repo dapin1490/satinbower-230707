@@ -7,7 +7,7 @@ tags: [지식, IT, git, github]
 render_with_liquid: false
 ---
 
-### ToC
+### Table of Contents
 - [개요](#개요)
 - [레포지토리 생성](#레포지토리-생성)
   - [github에서 생성 후 로컬에 clone](#github에서-생성-후-로컬에-clone)
