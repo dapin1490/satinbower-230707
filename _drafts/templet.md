@@ -1,7 +1,7 @@
 ---
 title: "title"
 author: dapin1490
-date: 2023-00-00 00:00:00 +09:00
+date: 2024-00-00 00:00:00 +09:00
 categories: [IT, note]
 tags: [지식, IT]
 render_with_liquid: false
